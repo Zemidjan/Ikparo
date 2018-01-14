@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:padding="@dimen/margin_half"
+    android:layout_margin="@dimen/margin_quart"
+    android:clickable="true"
+    android:background="@drawable/selector_rounded_white_color">
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:id="@+id/block_cours">
+        <ImageView
+            android:id="@+id/image_cours"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/books" />
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:id="@+id/block_details">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                android:text="suivi le "
+                android:id="@+id/suivi"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:background="@color/green"
+                android:paddingTop="@dimen/margin_quart"
+                android:paddingBottom="@dimen/margin_quart"
+                android:paddingLeft="@dimen/margin_default"
+                android:paddingRight="@dimen/margin_default"
+                android:layout_gravity="right"
+                android:layout_margin="@dimen/margin_half"
+                android:clickable="true" />
+
+            <TextView
+                android:id="@+id/titre_cours"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textStyle="bold"
+                android:text="TITRE Gratuit Gratuit Gratuit Gratuit Gratuit Gratuit Gratuit Gratuit"
+                android:layout_marginRight="@dimen/margin_half"
+                android:layout_marginLeft="@dimen/margin_half"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

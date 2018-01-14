@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="bj.zemidjan.dio">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icone"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/icone"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="bj.zemidjan.dio.activities.ConnexionActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name="bj.zemidjan.dio.activities.SplashScreenActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity
+            android:name="bj.zemidjan.dio.activities.OnboardingActivity"
+            android:label="@string/title_activity_onboarding"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="bj.zemidjan.dio.activities.AccueilActivity"
+            android:label="@string/title_activity_accueil"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+        <activity
+            android:name="bj.zemidjan.dio.activities.AffichageCoursActivity"
+            android:label="@string/title_activity_affichage_cours"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="bj.zemidjan.dio.activities.SuivreCoursActivity" />
+        <activity
+            android:name="bj.zemidjan.dio.activities.CommencerCoursActivity"
+            android:label="@string/title_activity_commencer_cours"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="bj.zemidjan.dio.activities.AffichageProfilActivity"
+            android:label="@string/title_activity_affichage_profil"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="bj.zemidjan.dio.activities.HelpActivity"
+            android:label="@string/title_activity_help"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="bj.zemidjan.dio.activities.ForumActivity"
+            android:label="@string/title_activity_forum"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+    </application>
+
+</manifest>

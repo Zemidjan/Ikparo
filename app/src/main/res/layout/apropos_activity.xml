@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fond_"
+    >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@mipmap/ea_logo_full"
+            android:layout_marginTop="70dp"/>
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="L'Arsenal de cours en ligne pour booster votre carrière."
+            android:textSize="15sp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="70dp"
+            android:textColor="@color/black"/>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20sp"
+                    android:text="Version 1.0.0"
+                    android:layout_gravity="center"
+                    android:layout_alignParentBottom="true"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20sp"
+                    android:text="\@Copyright 2017"
+                    android:layout_gravity="center"
+                    android:layout_alignParentBottom="true"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="18sp"
+                    android:text="Tous droits réservés"
+                    android:layout_gravity="center"
+                    android:layout_alignParentBottom="true"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+       <!-- <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nous noter"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/black"
+            android:background="@color/white"/>-->
+    </LinearLayout>
+</RelativeLayout>
+</LinearLayout>

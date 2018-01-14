@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_domaine"
+            android:icon="@drawable/ic_apps_black_24dp"
+            android:title="Domaines" />
+        <item
+            android:id="@+id/nav_cours"
+            android:icon="@drawable/ic_assignment_black_24dp"
+            android:title="Mes Cours Suivis" />
+        <item
+            android:id="@+id/nav_forum"
+            android:icon="@drawable/ic_group_black_24dp"
+            android:title="Forum d'échanges" />
+       <!-- <item
+            android:id="@+id/nav_inspiration"
+            android:icon="@drawable/ic_group_black_24dp"
+            android:title="Profils Inspirants" />-->
+        <item
+            android:id="@+id/nav_deconnexion"
+            android:icon="@drawable/ic_power_settings_new_black_24dp"
+            android:title="Se déconnecter" />
+    </group>
+
+    <item android:title="Communication">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Partager avec mes amis" />
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@drawable/ic_help_outline_black_24dp"
+                android:title="Aider" />
+        </menu>
+    </item>
+
+</menu>

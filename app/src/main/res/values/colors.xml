@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#0024ff</color>
+    <color name="colorPrimaryDark">#0b2bed</color>
+    <color name="colorAccent">#f7a515</color>
+    <color name="colorAccentDark">#efa016</color>
+
+    <color name="colorSecondary">#804958b4</color>
+	
+	<color name="black">#000</color>
+    <color name="white">#ffffff</color>
+
+    <color name="gris_1" >#f0f0f0</color>
+    <color name="gris_2" >#dedede</color>
+    <color name="gris_3" >#c0c0c0</color>
+
+    <color name="gris_4" >#808080</color>
+
+    <color name="gris_5" >#535353</color>
+    <color name="gris_6" >#2a2a2a</color>
+    <color name="gris_7" >#090909</color>
+
+    <color name="color1">#3387b3</color>
+    <color name="color2">#a7d6aa</color>
+    <color name="color3">#ffffff</color>
+    <color name="color4">#FFFCBC6C</color>
+
+
+    <color name="green">#27810b</color>
+    <color name="red">#F44336</color>
+	
+	
+	
+	
+	
+	
+    <color name="color">#c0c0c0</color>
+
+    <color name="colorA">#3387b3 </color>
+    <color name="yellow">#ffffff</color>
+
+
+
+
+    
+    <color name="green_dark">#6538e7</color>
+	 <color name="slide_1">#4f91ff</color>
+    <color name="slide_2">#fb9c25</color>
+    <color name="slide_3">#FF669FFF</color>
+    <color name="slide_4">#6d7687</color>
+    <color name="slide_5">#5e362a</color>
+
+
+
+    <color name="transparent">#14000000</color>
+    <color name="indicator_unselected">#cfcdce</color>
+
+    <!--Material color-->
+    <color name="chrome_grey">#F2F2F2</color>
+    <color name="pink">#FF4081</color>
+    <color name="purple">#9C27B0</color>
+    <color name="deepblue">#7C4DFF</color>
+    <color name="indigo">#3F51B5</color>
+    <color name="blue">#448AFF</color>
+    <color name="lightblue">#03A9F4</color>
+    <color name="cyan">#00BCD4</color>
+    <color name="teal">#009688</color>
+    <color name="lightgreen">#8BC34A</color>
+    <color name="lime">#CDDC39</color>
+    <color name="amber">#FFC107</color>
+    <color name="orange">#FF9800</color>
+    <color name="deeporange">#FF5722</color>
+    <color name="brown">#795548</color>
+    <color name="grey">#9E9E9E</color>
+    <color name="bluegrey">#607D8B</color>
+
+
+    <color name="trans_black_75">#BF000000</color>
+
+    <color name="trans_black_50">#80000000</color>
+
+    <color name="trans_black_25">#40000000</color>
+</resources>

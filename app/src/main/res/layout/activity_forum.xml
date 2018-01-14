@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="bj.zemidjan.dio.activities.ForumActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+
+    <include layout="@layout/content_forum" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/gris_2"
+        android:layout_margin="@dimen/margin_half"
+        android:paddingTop="@dimen/margin_default"
+        android:paddingLeft="@dimen/margin_default"
+        app:layout_behavior=""
+        android:layout_gravity="bottom|end">
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="0dp"
+            android:layout_weight="8"
+            android:layout_gravity="start"
+            android:layout_height="wrap_content"
+
+            >
+            <EditText
+                android:id="@+id/message"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Saisissez votre message!"
+                android:textColor="@color/gris_6"
+                android:textColorHint="@color/gris_6"
+                />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_gravity="end"
+            android:tint="@color/white"
+            app:srcCompat="@drawable/ic_send_black_24dp" />
+
+
+    </LinearLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>

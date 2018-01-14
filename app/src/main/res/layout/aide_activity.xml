@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="30dp"
+            android:text="Contactez-nous si votre préocupation ne se trouve pas ci-dessous en cliquant sur Ici."/>
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="Ici"
+            android:background="@drawable/button_background_moov"/>
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:text="Consulter les domaines"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:background="@drawable/button_background_moov"/>
+    <TextView
+        android:id="@+id/contacts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pour visiter un domaine,il vous suffit de cliquer celui voulu dans la liste des domaines.
+Il vous sera affiché tous les cours de ce domaines."
+        android:textColor="@color/black"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:text="Consulter les cours"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+          android:background="@drawable/button_background_moov"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pour visiter un cours,il vous suffit de cliquer celui voulu dans la liste des cours.
+Vous serez dirigé vers une vue qui vous decrit ce cours.Si vous voulez commencer un cours,vous appuyez sur Commencer le cours>.Vous serez diriger vers le lien du cours ou vers le pdf."
+        android:textColor="@color/black"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:text="Consulter les profils inspirants"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/button_background_moov"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pour voir un profil inspirant,il vous suffit de cliquer celui voulu dans la liste des profils.
+Vous serez dirigé vers une description complète de ce profil ."
+        android:textColor="@color/black"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"/>
+
+</LinearLayout>
+</LinearLayout>

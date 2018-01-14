@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:padding="@dimen/margin_half"
+    android:layout_margin="@dimen/margin_quart"
+    android:clickable="true"
+    android:background="@drawable/selector_rounded_white_color">
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:id="@+id/block_profil">
+        <ImageView
+            android:id="@+id/image_profil"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/books" />
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:padding="@dimen/margin_default"
+            android:id="@+id/block_details">
+
+
+            <TextView
+                android:id="@+id/nom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_half"
+                android:textStyle="bold"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:text="TITRE"/>
+
+            <TextView
+                android:id="@+id/description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLength="75"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:text="TITRE Gratuit Gratuit Gratuit Gratuit Gratuit Gratuit Gratuit Gratuit"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

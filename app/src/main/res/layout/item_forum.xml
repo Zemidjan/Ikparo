@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingRight="@dimen/margin_quart"
+   >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="right"
+    android:gravity="end"
+    android:background="@drawable/shape_rounded"
+    android:layout_margin="@dimen/margin_half">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Programmation"
+            android:id="@+id/message"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:paddingBottom="@dimen/margin_half"
+            android:paddingTop="@dimen/margin_half"
+            android:paddingLeft="@dimen/margin_default"
+            android:paddingRight="@dimen/margin_default"/>
+
+    </LinearLayout>
+
+</LinearLayout>
